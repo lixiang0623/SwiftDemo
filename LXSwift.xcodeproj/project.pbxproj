@@ -7,10 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91079882BDB490200B69A0E /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91079872BDB490200B69A0E /* BaseTabBarController.swift */; };
+		C910798F2BDB4A6000B69A0E /* JhConfigMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C910798B2BDB4A6000B69A0E /* JhConfigMacro.swift */; };
+		C91079902BDB4A6000B69A0E /* JhConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = C910798C2BDB4A6000B69A0E /* JhConst.swift */; };
+		C91079912BDB4A6000B69A0E /* JhConfigFrameMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C910798D2BDB4A6000B69A0E /* JhConfigFrameMacro.swift */; };
+		C91079922BDB4A6000B69A0E /* JhConfigFontColorMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C910798E2BDB4A6000B69A0E /* JhConfigFontColorMacro.swift */; };
+		C91079952BDB4D7C00B69A0E /* WeiXinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91079942BDB4D7C00B69A0E /* WeiXinViewController.swift */; };
+		C91079972BDB4DCF00B69A0E /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91079962BDB4DCF00B69A0E /* ContactViewController.swift */; };
+		C91079992BDB4DE700B69A0E /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91079982BDB4DE700B69A0E /* FindViewController.swift */; };
+		C910799B2BDB4DF600B69A0E /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C910799A2BDB4DF600B69A0E /* MineViewController.swift */; };
+		C910799D2BDB4FF200B69A0E /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C910799C2BDB4FF200B69A0E /* BaseNavigationController.swift */; };
+		C910799F2BDB513200B69A0E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C910799E2BDB513200B69A0E /* BaseViewController.swift */; };
+		C91079A22BDB519A00B69A0E /* UIBarButtonItem+JhExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91079A12BDB519A00B69A0E /* UIBarButtonItem+JhExtension.swift */; };
+		C91079AB2BDB53D400B69A0E /* UIImage+JhExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C91079A72BDB53D400B69A0E /* UIImage+JhExtension.m */; };
+		C91079AC2BDB53D400B69A0E /* UIView+JhExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C91079A92BDB53D400B69A0E /* UIView+JhExtension.m */; };
+		C91079AD2BDB53D400B69A0E /* UIColor+JhExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C91079AA2BDB53D400B69A0E /* UIColor+JhExtension.m */; };
+		C91079B02BDB54E000B69A0E /* UIColor+JhExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91079AE2BDB54E000B69A0E /* UIColor+JhExtension.swift */; };
+		C91079B12BDB54E000B69A0E /* UIColor+JhDarkColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91079AF2BDB54E000B69A0E /* UIColor+JhDarkColor.swift */; };
+		C91079B42BDB55D500B69A0E /* UIImage+JhExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91079B22BDB55D500B69A0E /* UIImage+JhExtension.swift */; };
+		C91079B52BDB55D500B69A0E /* UIImage+JhDarkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91079B32BDB55D500B69A0E /* UIImage+JhDarkImage.swift */; };
+		C91079BA2BDB929500B69A0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91079B92BDB929500B69A0E /* ViewController.swift */; };
 		C9BC3DB32BBA993C00F89F54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BC3DB22BBA993C00F89F54 /* AppDelegate.swift */; };
-		C9BC3DB52BBA993C00F89F54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BC3DB42BBA993C00F89F54 /* SceneDelegate.swift */; };
-		C9BC3DB72BBA993C00F89F54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BC3DB62BBA993C00F89F54 /* ViewController.swift */; };
-		C9BC3DBA2BBA993C00F89F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BC3DB82BBA993C00F89F54 /* Main.storyboard */; };
 		C9BC3DBC2BBA993C00F89F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BC3DBB2BBA993C00F89F54 /* Assets.xcassets */; };
 		C9BC3DBF2BBA993C00F89F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BC3DBD2BBA993C00F89F54 /* LaunchScreen.storyboard */; };
 		C9BC3DC72BBA9B1700F89F54 /* LXModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BC3DC62BBA9B1700F89F54 /* LXModel.swift */; };
@@ -21,11 +38,32 @@
 		4600C45EF660495925DCC169 /* Pods-LXSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXSwift.release.xcconfig"; path = "Target Support Files/Pods-LXSwift/Pods-LXSwift.release.xcconfig"; sourceTree = "<group>"; };
 		7F7AF1ED59A54DB3D8A74F76 /* Pods_LXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38826B1643CDBAAEED0BA2A /* Pods-LXSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXSwift.debug.xcconfig"; path = "Target Support Files/Pods-LXSwift/Pods-LXSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		C91079872BDB490200B69A0E /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		C910798B2BDB4A6000B69A0E /* JhConfigMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JhConfigMacro.swift; sourceTree = "<group>"; };
+		C910798C2BDB4A6000B69A0E /* JhConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JhConst.swift; sourceTree = "<group>"; };
+		C910798D2BDB4A6000B69A0E /* JhConfigFrameMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JhConfigFrameMacro.swift; sourceTree = "<group>"; };
+		C910798E2BDB4A6000B69A0E /* JhConfigFontColorMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JhConfigFontColorMacro.swift; sourceTree = "<group>"; };
+		C91079942BDB4D7C00B69A0E /* WeiXinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiXinViewController.swift; sourceTree = "<group>"; };
+		C91079962BDB4DCF00B69A0E /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		C91079982BDB4DE700B69A0E /* FindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
+		C910799A2BDB4DF600B69A0E /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		C910799C2BDB4FF200B69A0E /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		C910799E2BDB513200B69A0E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C91079A12BDB519A00B69A0E /* UIBarButtonItem+JhExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+JhExtension.swift"; sourceTree = "<group>"; };
+		C91079A42BDB53D300B69A0E /* LXSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LXSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		C91079A52BDB53D400B69A0E /* UIImage+JhExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JhExtension.h"; sourceTree = "<group>"; };
+		C91079A62BDB53D400B69A0E /* UIColor+JhExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JhExtension.h"; sourceTree = "<group>"; };
+		C91079A72BDB53D400B69A0E /* UIImage+JhExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JhExtension.m"; sourceTree = "<group>"; };
+		C91079A82BDB53D400B69A0E /* UIView+JhExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JhExtension.h"; sourceTree = "<group>"; };
+		C91079A92BDB53D400B69A0E /* UIView+JhExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JhExtension.m"; sourceTree = "<group>"; };
+		C91079AA2BDB53D400B69A0E /* UIColor+JhExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JhExtension.m"; sourceTree = "<group>"; };
+		C91079AE2BDB54E000B69A0E /* UIColor+JhExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+JhExtension.swift"; sourceTree = "<group>"; };
+		C91079AF2BDB54E000B69A0E /* UIColor+JhDarkColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+JhDarkColor.swift"; sourceTree = "<group>"; };
+		C91079B22BDB55D500B69A0E /* UIImage+JhExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+JhExtension.swift"; sourceTree = "<group>"; };
+		C91079B32BDB55D500B69A0E /* UIImage+JhDarkImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+JhDarkImage.swift"; sourceTree = "<group>"; };
+		C91079B92BDB929500B69A0E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C9BC3DAF2BBA993C00F89F54 /* LXSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9BC3DB22BBA993C00F89F54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C9BC3DB42BBA993C00F89F54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C9BC3DB62BBA993C00F89F54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C9BC3DB92BBA993C00F89F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9BC3DBB2BBA993C00F89F54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9BC3DBE2BBA993C00F89F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9BC3DC02BBA993C00F89F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +99,64 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C91079862BDB48C000B69A0E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C91079872BDB490200B69A0E /* BaseTabBarController.swift */,
+				C910799C2BDB4FF200B69A0E /* BaseNavigationController.swift */,
+				C910799E2BDB513200B69A0E /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C91079892BDB4A6000B69A0E /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				C910798B2BDB4A6000B69A0E /* JhConfigMacro.swift */,
+				C910798C2BDB4A6000B69A0E /* JhConst.swift */,
+				C910798D2BDB4A6000B69A0E /* JhConfigFrameMacro.swift */,
+				C910798E2BDB4A6000B69A0E /* JhConfigFontColorMacro.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		C91079932BDB4D3400B69A0E /* ProjectMain */ = {
+			isa = PBXGroup;
+			children = (
+				C91079942BDB4D7C00B69A0E /* WeiXinViewController.swift */,
+				C91079962BDB4DCF00B69A0E /* ContactViewController.swift */,
+				C91079982BDB4DE700B69A0E /* FindViewController.swift */,
+				C910799A2BDB4DF600B69A0E /* MineViewController.swift */,
+			);
+			path = ProjectMain;
+			sourceTree = "<group>";
+		};
+		C91079A02BDB517800B69A0E /* LXCategary */ = {
+			isa = PBXGroup;
+			children = (
+				C91079B32BDB55D500B69A0E /* UIImage+JhDarkImage.swift */,
+				C91079B22BDB55D500B69A0E /* UIImage+JhExtension.swift */,
+				C91079AF2BDB54E000B69A0E /* UIColor+JhDarkColor.swift */,
+				C91079AE2BDB54E000B69A0E /* UIColor+JhExtension.swift */,
+				C91079A12BDB519A00B69A0E /* UIBarButtonItem+JhExtension.swift */,
+			);
+			path = LXCategary;
+			sourceTree = "<group>";
+		};
+		C91079A32BDB534C00B69A0E /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				C91079A42BDB53D300B69A0E /* LXSwift-Bridging-Header.h */,
+				C91079A62BDB53D400B69A0E /* UIColor+JhExtension.h */,
+				C91079AA2BDB53D400B69A0E /* UIColor+JhExtension.m */,
+				C91079A52BDB53D400B69A0E /* UIImage+JhExtension.h */,
+				C91079A72BDB53D400B69A0E /* UIImage+JhExtension.m */,
+				C91079A82BDB53D400B69A0E /* UIView+JhExtension.h */,
+				C91079A92BDB53D400B69A0E /* UIView+JhExtension.m */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
 		C9BC3DA62BBA993C00F89F54 = {
 			isa = PBXGroup;
 			children = (
@@ -82,10 +178,13 @@
 		C9BC3DB12BBA993C00F89F54 /* LXSwift */ = {
 			isa = PBXGroup;
 			children = (
+				C91079A32BDB534C00B69A0E /* OC */,
+				C91079A02BDB517800B69A0E /* LXCategary */,
+				C91079932BDB4D3400B69A0E /* ProjectMain */,
+				C91079892BDB4A6000B69A0E /* Configs */,
+				C91079862BDB48C000B69A0E /* Base */,
 				C9BC3DB22BBA993C00F89F54 /* AppDelegate.swift */,
-				C9BC3DB42BBA993C00F89F54 /* SceneDelegate.swift */,
-				C9BC3DB62BBA993C00F89F54 /* ViewController.swift */,
-				C9BC3DB82BBA993C00F89F54 /* Main.storyboard */,
+				C91079B92BDB929500B69A0E /* ViewController.swift */,
 				C9BC3DBB2BBA993C00F89F54 /* Assets.xcassets */,
 				C9BC3DBD2BBA993C00F89F54 /* LaunchScreen.storyboard */,
 				C9BC3DC02BBA993C00F89F54 /* Info.plist */,
@@ -128,6 +227,7 @@
 				TargetAttributes = {
 					C9BC3DAE2BBA993C00F89F54 = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -156,7 +256,6 @@
 			files = (
 				C9BC3DBF2BBA993C00F89F54 /* LaunchScreen.storyboard in Resources */,
 				C9BC3DBC2BBA993C00F89F54 /* Assets.xcassets in Resources */,
-				C9BC3DBA2BBA993C00F89F54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,24 +308,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9BC3DB72BBA993C00F89F54 /* ViewController.swift in Sources */,
+				C91079AC2BDB53D400B69A0E /* UIView+JhExtension.m in Sources */,
+				C91079B52BDB55D500B69A0E /* UIImage+JhDarkImage.swift in Sources */,
+				C91079912BDB4A6000B69A0E /* JhConfigFrameMacro.swift in Sources */,
+				C910799B2BDB4DF600B69A0E /* MineViewController.swift in Sources */,
+				C91079BA2BDB929500B69A0E /* ViewController.swift in Sources */,
 				C9BC3DC72BBA9B1700F89F54 /* LXModel.swift in Sources */,
+				C91079882BDB490200B69A0E /* BaseTabBarController.swift in Sources */,
+				C91079B12BDB54E000B69A0E /* UIColor+JhDarkColor.swift in Sources */,
+				C910799F2BDB513200B69A0E /* BaseViewController.swift in Sources */,
+				C91079952BDB4D7C00B69A0E /* WeiXinViewController.swift in Sources */,
+				C91079B42BDB55D500B69A0E /* UIImage+JhExtension.swift in Sources */,
+				C91079922BDB4A6000B69A0E /* JhConfigFontColorMacro.swift in Sources */,
+				C91079AB2BDB53D400B69A0E /* UIImage+JhExtension.m in Sources */,
+				C91079972BDB4DCF00B69A0E /* ContactViewController.swift in Sources */,
+				C910799D2BDB4FF200B69A0E /* BaseNavigationController.swift in Sources */,
 				C9BC3DB32BBA993C00F89F54 /* AppDelegate.swift in Sources */,
-				C9BC3DB52BBA993C00F89F54 /* SceneDelegate.swift in Sources */,
+				C91079902BDB4A6000B69A0E /* JhConst.swift in Sources */,
+				C91079A22BDB519A00B69A0E /* UIBarButtonItem+JhExtension.swift in Sources */,
+				C91079AD2BDB53D400B69A0E /* UIColor+JhExtension.m in Sources */,
+				C910798F2BDB4A6000B69A0E /* JhConfigMacro.swift in Sources */,
+				C91079992BDB4DE700B69A0E /* FindViewController.swift in Sources */,
+				C91079B02BDB54E000B69A0E /* UIColor+JhExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C9BC3DB82BBA993C00F89F54 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9BC3DB92BBA993C00F89F54 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C9BC3DBD2BBA993C00F89F54 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -249,6 +358,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -297,6 +407,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/lixiang/Documents/LXSwift/LXSwift/Configs/LXSwift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -312,6 +424,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -353,6 +466,8 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/lixiang/Documents/LXSwift/LXSwift/Configs/LXSwift-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -363,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PJ99P266B4;
@@ -370,10 +486,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LXSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -382,6 +500,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lx.LXSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LXSwift/OC/LXSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -393,6 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PJ99P266B4;
@@ -400,10 +521,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LXSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -412,6 +535,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lx.LXSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LXSwift/OC/LXSwift-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

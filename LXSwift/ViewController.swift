@@ -47,6 +47,7 @@ class ViewController: UIViewController,UITextFieldDelegate{
         passwordField.isSecureTextEntry = true
         
         
+        
         confimBtn.setTitle("登陆", for:.normal)
         confimBtn.setTitleColor(.red, for: .normal)
         confimBtn.backgroundColor = .gray
